@@ -14,7 +14,7 @@ namespace EFLearning
 
         static void Main(string[] args)
         {
-            //test
+            //test 123
             log.Info("Application Start...");
             logHardware.Debug("XX hardware message received...");
             Console.WriteLine("Waiting...");
