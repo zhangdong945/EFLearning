@@ -16,9 +16,10 @@ namespace EFLearning
         {
             //test 123
             log.Info("Application Start...");
-            logHardware.Debug("XX hardware message received...");
+            logHardware.Debug(" XX hardware message received...");
             Console.WriteLine("Waiting...");
             Console.ReadKey();
+
 #if false
             using (var db = new BloggingContext())
             {
